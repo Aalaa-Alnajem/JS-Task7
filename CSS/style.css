@@ -1,0 +1,131 @@
+:root{
+    --bs--color:#777777;
+    --bs-main-colr:#444444;
+}
+p{
+    color: var(--bs--color);
+}
+a{
+    list-style: none;
+}
+/* Section [Home] */
+
+#home{
+    background-image: linear-gradient(rgba(214,46,51,0.6), rgba(214,46,51,0.6)), url(../Images/events-heavenly-header.jpg);
+    width: 100%;
+    height: 660px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+}
+.homePage .nav{
+    width: 250px;
+    height: 100%;
+    left: -250px;
+}
+#home .nav a{
+    padding: 20px 8px 20px 40px;
+    font-size: 26px;
+    color: #fff;
+    transition: all 0.3s;
+}
+#home .nav a:hover{
+    color: #D62E33;
+}
+#home .nav #closeNav{
+    font-size: 36px;
+    right: 25px;
+}
+.homeContent h2{
+    font-size: 60px;
+}
+#openNav{
+    font-size: 30px;
+    left: 260px;
+    top: -40px;
+}
+
+/* Section [Singers] */
+#singers{
+    padding: 70px 0px;
+}
+#singers h3{
+    background-color: #D62E3399;
+    padding: 10px;
+    margin: 0px;
+    font-size: 26px;
+    cursor: pointer;
+    color: #fff;
+}
+#singers p{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+    color: black;
+    margin: 0px;
+}
+
+/* Section [counter] */
+#counter{
+    background-image: linear-gradient(rgba(214,46,51,0.6), rgba(214,46,51,0.6)), url(../Images/counter-image.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 330px;
+}
+.container{
+    width: 80%;
+}
+.item{
+    padding: 50px;
+    border: 1px solid #fff;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Section [Contact] */
+
+#contact{
+    width: 80%;
+}
+#contact h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: var(--bs-main-colr);
+}
+#contact h3{
+    color: var(--bs-main-colr);
+}
+#contact .cont-info p{
+    line-height: 26px;
+    color: #777;
+}
+#contact .cont-info .icons i{
+    color: var(--bs--color);
+    width: 40px;
+    height: 40px;
+    border: 1px solid #999;
+    padding: 10px;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+#contact .cont-info .icons i:hover{
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+
+.btn, .form-control{
+    border-radius: 0;
+}
+#contact .btn{
+    padding: 10px 20px;
+} 
+#char{
+    color: red;
+    font-size: 20px;
+    margin-right: 5px;
+}
